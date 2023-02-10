@@ -16,7 +16,14 @@ body {
     flex-direction: row;
     list-style: none;
     padding-top: 20px;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+      
+}
+.home{ 
+    margin-right: 20px;
+}
+.cerves {
+    margin-right: 20px;
 }
 a {
     color: white;
@@ -32,15 +39,16 @@ div button {
     margin: auto;
 }
 .beers {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 .random {
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 .beer{
-    width: 425px;
-    height: 425px;
+    width: 400px;
+    height: 400px;
     display: block;
     margin: auto;
 }
@@ -51,4 +59,36 @@ footer p{
     background-color: #0a2c42;
     padding-top: 20px;
     padding-bottom: 20px;  
+}
+.cervezas {
+    margin-left: 33px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+	
+}
+.fotos {
+   
+    width: 33%;
+    height: 33%;
+    justify-content: center;
+    margin: center;
+}
+.imagen {
+    width: 80px;
+    height: 200px; 
+    align-items: center;
+}
+.name {
+    justify-content: left;
+    font-size: 20px;
+}
+.tagline {
+    justify-content: left;
+    color: #bfbfbf; 
+}
+.description {
+    font-size: 10px;
 }
