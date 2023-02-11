@@ -16,8 +16,7 @@ body {
     flex-direction: row;
     list-style: none;
     padding-top: 20px;
-    padding-bottom: 20px;
-      
+    padding-bottom: 20px;    
 }
 .home{ 
     margin-right: 20px;
@@ -66,20 +65,15 @@ footer p{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
-	
 }
 .fotos {
-   
     width: 33%;
     height: 33%;
-    justify-content: center;
     margin: center;
 }
 .imagen {
     width: 80px;
-    height: 200px; 
-    align-items: center;
+    height: 210px; 
 }
 .name {
     justify-content: left;
@@ -90,5 +84,5 @@ footer p{
     color: #bfbfbf; 
 }
 .description {
-    font-size: 10px;
+    font-size: 15px;
 }
